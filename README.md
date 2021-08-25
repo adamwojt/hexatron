@@ -1,4 +1,6 @@
 # hexatron
+![CI](https://github.com/adamwojt/hexatron/workflows/ci/badge.svg?branch=master&event=push)
+[![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://timothycrosley.github.io/isort/)[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)[![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)[![pylint](https://img.shields.io/badge/linter-pylint-purple)](https://www.pylint.org/)
 
 API and CLI to convert decimals to hexadecimals.
 ## Prerequisites
@@ -41,6 +43,6 @@ hexatron convert 590
 - Run tests with `poetry run pytest`
 - Install linting with `pre-commit install`
 - Run linting with `pre-commit run -a`
+- Linters are - `black`, `bandit`, `pylint` and `isort`
 - Server should reload on code changes by default
 - Github Actions are used as CI that run tests, lint and check server health.
-- 
