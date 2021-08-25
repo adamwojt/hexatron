@@ -1,6 +1,6 @@
 # hexatron
-![CI](https://github.com/adamwojt/hexatron/workflows/ci/badge.svg?branch=master&event=push)
-[![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://timothycrosley.github.io/isort/)[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)[![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)[![pylint](https://img.shields.io/badge/linter-pylint-purple)](https://www.pylint.org/)
+[![CI](https://github.com/adamwojt/hexatron/workflows/ci/badge.svg?branch=master&event=push)](https://github.com/adamwojt/hexatron/actions)
+[![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://timothycrosley.github.io/isort/)[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)[![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)[![pylint](https://img.shields.io/badge/linter-pylint-purple)](https://www.pylint.org/)[![pylint](https://img.shields.io/badge/typing-mypy-blue)](https://mypy.readthedocs.io/en/stable/)
 
 API and CLI to convert decimals to hexadecimals.
 ## Prerequisites
