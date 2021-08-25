@@ -43,6 +43,6 @@ hexatron convert 590
 - Run tests with `poetry run pytest`
 - Install linting with `pre-commit install`
 - Run linting with `pre-commit run -a`
-- Linters are - `black`, `bandit`, `pylint` and `isort`
+- Linters are - `black`, `bandit`, `pylint`, `isort` and `mypy`
 - Server should reload on code changes by default
 - Github Actions are used as CI that run tests, lint and check server health.

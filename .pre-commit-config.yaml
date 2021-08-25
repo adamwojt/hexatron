@@ -46,3 +46,8 @@ repos:
       - id: bandit
         args: ['-iii', '-ll']
         exclude: 'manage.py|tests|setup.py|migrations'
+
+-   repo: https://github.com/pre-commit/mirrors-mypy
+    rev: 'v0.910'
+    hooks:
+    -   id: mypy

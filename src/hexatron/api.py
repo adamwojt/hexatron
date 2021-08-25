@@ -7,7 +7,7 @@ app = FastAPI()
 
 
 @app.get("/", include_in_schema=False)
-async def docs_redirect():
+async def docs_redirect() -> RedirectResponse:
     return RedirectResponse(url="/docs")
 
 
@@ -17,7 +17,7 @@ async def to_hexadecimal_api(number: int) -> str:
 
 
 @app.get("/healthcheck", status_code=status.HTTP_200_OK)
-def perform_healthcheck():
+def perform_healthcheck() -> dict:
     """
     Simple route for the GitHub Actions to healthcheck on.
     """
