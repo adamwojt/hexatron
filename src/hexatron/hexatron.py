@@ -3,7 +3,7 @@ from functools import lru_cache
 from hexatron.const import HEXADECIMALS
 
 
-@lru_cache
+@lru_cache()
 def _to_hexadecimal(number: int) -> str:
     """
     Recursively convert positive int to hexadecimal string.

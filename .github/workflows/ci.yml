@@ -31,4 +31,5 @@ jobs:
     - name: Healthcheck server
       run: |
         poetry run hexatron server &
+        sleep 10
         curl -f localhost:8080/healthcheck
